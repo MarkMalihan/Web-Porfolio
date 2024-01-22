@@ -27,7 +27,7 @@ function Home() {
           {/*PIC*/}
           <section className="mr-16 p-10">
             <img
-              src="src/assets/pic2.jpg"
+              src="/pic2.jpg"
               alt="Argel"
               className="rounded-md shadow-md"
               width="200px"

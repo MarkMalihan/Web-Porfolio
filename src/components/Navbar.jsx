@@ -18,7 +18,7 @@ function Navbar() {
 
         <ul className="flex gap-5">
           <li className="hover:text-yellow-300">
-            <NavLink to="/Home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li className="hover:text-blue-300">
             <NavLink to="/Projects">Project</NavLink>
