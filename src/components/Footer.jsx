@@ -52,6 +52,14 @@ function Footer() {
                 alt="discord-logo"
               />
             </li>
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+              <img
+                width="48"
+                height="48"
+                src="https://img.icons8.com/material-rounded/48/ffffff/linkedin--v1.png"
+                alt="linkedin--v1"
+              />
+            </li>
           </ul>
         </section>
         <hr className="w-full" />
@@ -63,9 +71,9 @@ function Footer() {
         </button>
         <section className="flex flex-col md:flex-row items-center justify-center gap-5 p-3">
           <p>© 2024 Argel Malihan</p>
-          <p className="hide md:block">|</p>
+          <p className="hidden md:block">|</p>
           <p>Built with React.js and Tailwind CSS</p>
-          <p className="hide md:block">|</p>
+          <p className="hidden md:block">|</p>
           <p>
             Icon by <a href="https://icons8.com">Icons8</a>
           </p>
