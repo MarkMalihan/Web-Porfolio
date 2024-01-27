@@ -11,7 +11,7 @@ function DesignToolkit() {
   ];
   return (
     <>
-      <section className="w-full grid grid-cols-3 gap-5 p-5">
+      <section className="w-full grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
         {designToolkit.map((design, index) => (
           <section
             key={index}

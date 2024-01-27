@@ -39,7 +39,8 @@ function Home() {
         </section>
       </div>
 
-      <hr className="w-full my-14 border-t-blue-500" />
+      <hr className="w-4/5 my-14 mx-auto border-t-blue-500" />
+
       <section className="mx-5 2xl:mx-40">
         <h1 className="text-3xl text-black/80 font-bold m-5">Tech Stack</h1>
         <TechStack />
@@ -48,6 +49,8 @@ function Home() {
         <h1 className="text-3xl text-black/80 font-bold m-5">Design ToolKit</h1>
         <DesignToolkit />
       </section>
+
+      <hr className="w-4/5 my-14 mx-auto border-t-blue-500" />
     </>
   );
 }
