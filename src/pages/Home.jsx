@@ -1,5 +1,7 @@
 import React from "react";
-import Cards from "../components/Cards";
+import techStack from "../components/TechStack";
+import TechStack from "../components/TechStack";
+import DesignToolkit from "../components/DesignToolkit";
 
 function Home() {
   return (
@@ -37,16 +39,15 @@ function Home() {
         </section>
       </div>
 
-      <hr className="w-full my-20 border-t-blue-500" />
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-10 p-3 gap-5">
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-        <Cards />
-      </div>
+      <hr className="w-full my-14 border-t-blue-500" />
+      <section className="mx-5">
+        <h1 className="text-3xl text-black/80 font-bold m-5">Tech Stack</h1>
+        <TechStack />
+      </section>
+      <section className="mx-5">
+        <h1 className="text-3xl text-black/80 font-bold m-5">Design ToolKit</h1>
+        <DesignToolkit />
+      </section>
     </>
   );
 }
