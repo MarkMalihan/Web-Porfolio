@@ -25,43 +25,43 @@ function Home() {
                 Resume
               </button>
               <ul className="flex gap-5">
-                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                <li className="flex flex-col items-center p-2 hover:bg-teal-100 hover:rounded-md duration-300">
                   <img
                     width="35"
                     height="35"
-                    src="https://img.icons8.com/material-rounded/48/facebook-new.png"
+                    src="https://img.icons8.com/material-rounded/48/3f484e/facebook-new.png"
                     alt="facebook-new"
                   />
                 </li>
-                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                <li className="flex flex-col items-center p-2 hover:bg-teal-100 hover:rounded-md duration-300">
                   <img
                     width="35"
                     height="35"
-                    src="https://img.icons8.com/material-rounded/48/new-post.png"
+                    src="https://img.icons8.com/material-rounded/48/3f484e/new-post.png"
                     alt="new-post"
                   />
                 </li>
-                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                <li className="flex flex-col items-center p-2 hover:bg-teal-100 hover:rounded-md duration-300">
                   <img
                     width="35"
                     height="35"
-                    src="https://img.icons8.com/material-rounded/48/github.png"
+                    src="https://img.icons8.com/material-rounded/48/3f484e/github.png"
                     alt="github"
                   />
                 </li>
-                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                <li className="flex flex-col items-center p-2 hover:bg-teal-100 hover:rounded-md duration-300">
                   <img
                     width="35"
                     height="35"
-                    src="https://img.icons8.com/material-rounded/48/discord-logo.png"
+                    src="https://img.icons8.com/material-rounded/48/3f484e/discord-logo.png"
                     alt="discord-logo"
                   />
                 </li>
-                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                <li className="flex flex-col items-center p-2 hover:bg-teal-100 hover:rounded-md duration-300">
                   <img
                     width="35"
                     height="35"
-                    src="https://img.icons8.com/material-rounded/48/linkedin--v1.png"
+                    src="https://img.icons8.com/material-rounded/48/3f484e/linkedin--v1.png"
                     alt="linkedin--v1"
                   />
                 </li>
