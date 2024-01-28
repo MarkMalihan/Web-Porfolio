@@ -6,10 +6,10 @@ import DesignToolkit from "../components/DesignToolkit";
 function Home() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center gap-5">
-        <section className="w-full md:w-2/3 flex items-center justify-start">
+      <div className="flex flex-col md:flex-row items-center gap-5 p-5">
+        <section className="w-full md:w-3/4 m-auto  flex items-center justify-start">
           {/*Information*/}
-          <section className="w-full m-5 md:m-10 p-5 space-y-3 bg-white border rounded-md shadow-md">
+          <section className="w-full p-5 space-y-3 bg-white border rounded-md shadow-md">
             <p className="text-2xl">Hi! I am</p>
             <h1 className="text-5xl text-blue-500 font-bold">
               Mark Angelo Malihan
@@ -26,8 +26,8 @@ function Home() {
           </section>
         </section>
 
-        <section className="w-full md:w-1/3 flex items-center justify-center bg-blue-200 rounded-s-3xl shadow-md">
-          {/*PIC*/}
+        {/* <section className="w-full md:w-1/3 flex items-center justify-center bg-blue-200 rounded-s-3xl shadow-md">
+          
           <section className="m-10">
             <img
               src="/pic2.jpg"
@@ -36,21 +36,23 @@ function Home() {
               width="200px"
             />
           </section>
-        </section>
+        </section> */}
       </div>
 
-      <hr className="w-4/5 my-14 mx-auto border-t-blue-500" />
-
       <section className="mx-auto container ">
-        <h1 className="text-3xl text-black/80 font-bold m-5">Tech Stack</h1>
+        <hr className=" my-14 mx-auto border-t-blue-100" />
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-white">
+          Tech Stack
+        </h1>
         <TechStack />
       </section>
       <section className="mx-auto container ">
-        <h1 className="text-3xl text-black/80 font-bold m-5">Design ToolKit</h1>
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-white">
+          Design ToolKit
+        </h1>
         <DesignToolkit />
+        <hr className="my-14 mx-auto border-t-blue-100" />
       </section>
-
-      <hr className="w-4/5 my-14 mx-auto border-t-blue-500" />
     </>
   );
 }
