@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <>
       <div className="flex flex-col md:flex-row items-center gap-5 p-5 mt-14">
-        <section className="w-full m-auto  flex flex-col items-center justify-start gap-5">
+        <section className="w-full  md:w-3/4 m-auto  flex flex-col items-center justify-start gap-5">
           <div className=" flex gap-5 md:mr-auto">
             <img src="/StarPolygons.com_4-1.svg" alt="" width="30px" />
             <img src="/StarPolygons.com_4-1.svg" alt="" width="30px" />
