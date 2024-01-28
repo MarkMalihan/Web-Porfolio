@@ -22,7 +22,7 @@ function DesignToolkit() {
               <h1 className="text-xl text-black/80 font-bold">
                 {designs.tech}
               </h1>
-              <p className="text-gray-400">{designs.category}</p>
+              <p className="text-gray-500">{designs.category}</p>
               <hr />
               <p className="text-gray-800">{designs.year}</p>
             </div>

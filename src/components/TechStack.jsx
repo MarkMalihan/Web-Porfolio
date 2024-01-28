@@ -57,7 +57,7 @@ function TechStack() {
             <img width="48" height="48" src={techs.img} alt={techs.tech} />
             <div className="w-full space-y-3">
               <h1 className="text-xl text-black/80 font-bold">{techs.tech}</h1>
-              <p className="text-gray-400">{techs.category}</p>
+              <p className="text-gray-500">{techs.category}</p>
               <hr />
               <p className="text-gray-800">{techs.year}</p>
             </div>
