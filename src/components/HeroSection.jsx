@@ -21,7 +21,7 @@ function HeroSection() {
             </h1>
             <hr />
             <p className="text-4xl text-gray-700 font-semibold leading-loose tracking-wide">
-              Frontend Dev | Feeling UI/UX Designer
+              Front-End Dev | Feeling UI/UX Designer
             </p>
             <hr />
 
