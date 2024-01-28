@@ -11,34 +11,43 @@ function Navbar() {
         <h1 className="text-xl font-bold tracking-[0.2em]">ARGEL MALIHAN</h1>
 
         <ul className="flex gap-6 mt-5 md:mt-0">
-          <li
-            className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
-              isHomeActive
-                ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
-                : ""
-            }`}
-          >
-            <NavLink to="/">Home</NavLink>
+          <li>
+            <NavLink
+              to="/"
+              className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
+                isHomeActive
+                  ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
+                  : ""
+              }`}
+            >
+              Home
+            </NavLink>
           </li>
 
-          <li
-            className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
-              isProjectsActive
-                ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
-                : ""
-            }`}
-          >
-            <NavLink to="/Projects">Project</NavLink>
+          <li>
+            <NavLink
+              to="/Projects"
+              className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
+                isProjectsActive
+                  ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
+                  : ""
+              }`}
+            >
+              Project
+            </NavLink>
           </li>
 
-          <li
-            className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
-              isContactActive
-                ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
-                : ""
-            }`}
-          >
-            <NavLink to="/Contact">Contact</NavLink>
+          <li>
+            <NavLink
+              to="/Contact"
+              className={`px-4 py-1 rounded-full hover:bg-blue-200 hover:text-black/80 ${
+                isContactActive
+                  ? "bg-blue-200 px-4 py-1 rounded-full text-black/80"
+                  : ""
+              }`}
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>
