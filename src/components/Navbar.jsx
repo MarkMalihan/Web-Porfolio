@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <nav className="sticky top-0 z-10 p-5 flex items-center justify-between bg-gray-800 text-white">
+      <nav className="sticky top-0 z-10 p-5 flex flex-col md:flex-row items-center justify-between bg-gray-800 text-white">
         <h1 className="text-xl font-bold tracking-[0.2em]">ARGEL MALIHAN</h1>
 
-        <ul className="flex gap-5">
+        <ul className="flex gap-5 mt-5 md:mt-0">
           <li className="hover:text-yellow-300">
             <NavLink to="/">Home</NavLink>
           </li>
