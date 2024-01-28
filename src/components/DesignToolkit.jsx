@@ -11,11 +11,11 @@ function DesignToolkit() {
   ];
   return (
     <>
-      <section className="w-full grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
+      <section className="w-full grid grid-cols-1 md:grid-cols-3 gap-10 p-5">
         {designToolkit.map((design, index) => (
           <section
             key={index}
-            className="flex items-center gap-5 p-5 space-y-3 bg-white hover:bg-teal-50 hover:scale-105 duration-300 rounded-md shadow-md"
+            className="flex items-center gap-10 p-5 bg-white hover:bg-teal-50 hover:scale-105 duration-300 rounded-md shadow-md"
           >
             <img width="48" height="48" src={design.img} alt={design.tech} />
             <div className="w-full space-y-3">
