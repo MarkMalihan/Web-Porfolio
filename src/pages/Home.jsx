@@ -11,18 +11,62 @@ function Home() {
           {/*Information*/}
           <section className="w-full p-5 space-y-3 bg-white border rounded-md shadow-md">
             <p className="text-2xl">Hi! I am</p>
-            <h1 className="text-5xl text-blue-500 font-bold">
+            <h1 className="text-5xl text-blue-800 font-bold tracking-wide">
               Mark Angelo Malihan
             </h1>
             <hr />
-            <p className="text-4xl font-semibold leading-loose">
+            <p className="text-4xl text-gray-700 font-semibold leading-loose tracking-wide">
               Frontend Dev | Feeling UI/UX Designer
             </p>
             <hr />
-            <button className="px-4 py-1 border border-blue-400 hover:bg-blue-500 hover:text-white rounded-full">
-              Resume
-            </button>
-            <button></button>
+
+            <section className="flex flex-col md:flex-row items-center justify-between">
+              <button className="px-4 py-1 border border-blue-400 hover:bg-blue-500 hover:text-white rounded-full">
+                Resume
+              </button>
+              <ul className="flex gap-5">
+                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                  <img
+                    width="35"
+                    height="35"
+                    src="https://img.icons8.com/material-rounded/48/facebook-new.png"
+                    alt="facebook-new"
+                  />
+                </li>
+                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                  <img
+                    width="35"
+                    height="35"
+                    src="https://img.icons8.com/material-rounded/48/new-post.png"
+                    alt="new-post"
+                  />
+                </li>
+                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                  <img
+                    width="35"
+                    height="35"
+                    src="https://img.icons8.com/material-rounded/48/github.png"
+                    alt="github"
+                  />
+                </li>
+                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                  <img
+                    width="35"
+                    height="35"
+                    src="https://img.icons8.com/material-rounded/48/discord-logo.png"
+                    alt="discord-logo"
+                  />
+                </li>
+                <li className="flex flex-col items-center p-2 hover:bg-gray-500 hover:rounded-md duration-300">
+                  <img
+                    width="35"
+                    height="35"
+                    src="https://img.icons8.com/material-rounded/48/linkedin--v1.png"
+                    alt="linkedin--v1"
+                  />
+                </li>
+              </ul>
+            </section>
           </section>
         </section>
 
@@ -40,18 +84,18 @@ function Home() {
       </div>
 
       <section className="mx-auto container ">
-        <hr className=" my-14 mx-auto border-t-blue-100" />
-        <h1 className="text-3xl text-black/80 font-bold m-5 text-white">
+        <hr className=" my-14 mx-auto border-t-teal-300" />
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-blue-200">
           Tech Stack
         </h1>
         <TechStack />
       </section>
       <section className="mx-auto container ">
-        <h1 className="text-3xl text-black/80 font-bold m-5 text-white">
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-blue-200">
           Design ToolKit
         </h1>
         <DesignToolkit />
-        <hr className="my-14 mx-auto border-t-blue-100" />
+        <hr className="my-14 mx-auto border-t-teal-300" />
       </section>
     </>
   );

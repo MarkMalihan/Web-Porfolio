@@ -62,7 +62,7 @@ function Footer() {
             </li>
           </ul>
         </section>
-        <hr className="w-full" />
+        <hr className="w-full border-t-teal-300" />
         <button
           className="px-3 py-2 rounded-full bg-gray-900 hover:bg-gray-950"
           onClick={scrollToTop}
