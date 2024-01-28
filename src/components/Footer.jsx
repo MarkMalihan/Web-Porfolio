@@ -20,7 +20,7 @@ function Footer() {
         </section>
         <section>
           <ul className="flex gap-5">
-            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md duration-300">
               <img
                 width="48"
                 height="48"
@@ -28,7 +28,7 @@ function Footer() {
                 alt="facebook-new"
               />
             </li>
-            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md duration-300">
               <img
                 width="48"
                 height="48"
@@ -36,7 +36,7 @@ function Footer() {
                 alt="new-post"
               />
             </li>
-            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md duration-300">
               <img
                 width="48"
                 height="48"
@@ -44,7 +44,7 @@ function Footer() {
                 alt="github"
               />
             </li>
-            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md duration-300">
               <img
                 width="48"
                 height="48"
@@ -52,7 +52,7 @@ function Footer() {
                 alt="discord-logo"
               />
             </li>
-            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md">
+            <li className="flex flex-col items-center p-2 hover:bg-gray-900 hover:rounded-md duration-300">
               <img
                 width="48"
                 height="48"

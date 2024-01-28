@@ -15,7 +15,7 @@ function DesignToolkit() {
         {designToolkit.map((design, index) => (
           <section
             key={index}
-            className="flex items-center gap-5 p-5 space-y-3 bg-white hover:bg-sky-50 duration-300 rounded-md shadow-md"
+            className="flex items-center gap-5 p-5 space-y-3 bg-white hover:bg-sky-50 hover:scale-105 duration-300 rounded-md shadow-md"
           >
             <img width="48" height="48" src={design.img} alt={design.tech} />
             <div className="w-full space-y-3">

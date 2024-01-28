@@ -6,7 +6,7 @@ import DesignToolkit from "../components/DesignToolkit";
 function Home() {
   return (
     <>
-      <div className="flex flex-col md:flex-row items-center gap-5 p-5">
+      <div className="flex flex-col md:flex-row items-center gap-5 p-5 mt-14">
         <section className="w-full md:w-3/4 m-auto  flex items-center justify-start">
           {/*Information*/}
           <section className="w-full p-5 space-y-3 bg-white border rounded-md shadow-md">
