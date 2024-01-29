@@ -7,7 +7,7 @@ function Navbar() {
   const isContactActive = useMatch("/Contact");
   return (
     <>
-      <nav className="sticky top-0 z-10 p-5 flex flex-col md:flex-row items-center justify-between bg-gray-800 text-white">
+      <nav className="sticky top-0 z-10 p-5 m-2 md:m-5 flex flex-col md:flex-row items-center justify-between bg-gray-800 text-white rounded-md shadow-md">
         <h1 className="text-xl font-bold tracking-[0.2em]">ARGEL MALIHAN</h1>
 
         <ul className="flex gap-6 mt-5 md:mt-0">
