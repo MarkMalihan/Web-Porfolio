@@ -3,6 +3,7 @@ import techStack from "../components/TechStack";
 import TechStack from "../components/TechStack";
 import DesignToolkit from "../components/DesignToolkit";
 import HeroSection from "../components/HeroSection";
+import Timeline from "../components/Timeline";
 
 function Home() {
   return (
@@ -21,6 +22,13 @@ function Home() {
           Design ToolKit
         </h1>
         <DesignToolkit />
+        <hr className="my-14 mx-auto border-t-teal-300" />
+      </section>
+      <section className="mx-auto container ">
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-blue-200">
+          Timeline
+        </h1>
+        <Timeline />
         <hr className="my-14 mx-auto border-t-teal-300" />
       </section>
     </>
