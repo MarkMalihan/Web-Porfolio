@@ -16,7 +16,7 @@ function ProjectCards() {
         {projects.map((project, index) => (
           <section
             key={index}
-            className="p-5 border-2 border-blue-300 bg-gray-200 hover:scale-105 duration-300 rounded-md shadow-md"
+            className="p-5 border border-blue-300 bg-gray-600 hover:scale-105 duration-300 rounded-md shadow-md"
           >
             <div className="flex items-center gap-5">
               <img
@@ -25,17 +25,14 @@ function ProjectCards() {
                 src={project.img}
                 alt={project.name}
               />
-              <h1 className="text-xl text-black/80 font-bold">
-                {project.name}
-              </h1>
+              <h1 className="text-xl text-gray-50 font-bold">{project.name}</h1>
             </div>
 
             <div className="w-full space-y-3">
-              <hr className="border-t-blue-200" />
-              <p className="text-gray-600">{project.description}</p>
-              <hr className="border-t-blue-200" />
-              <p className="text-gray-800">Technology: {project.tech}</p>
-              <hr className="border-t-blue-200" />
+              <p className="text-gray-300">{project.description}</p>
+              <hr />
+              <p className="text-gray-200">Technology: {project.tech}</p>
+              <hr />
               <p>
                 <a
                   href={project.githubLink}
