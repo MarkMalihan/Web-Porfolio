@@ -14,7 +14,7 @@ function HeroSection() {
             <img src="/StarPolygons.com_4-1.svg" alt="" width="30px" />
           </div>
           {/*Information*/}
-          <section className="w-full p-5 space-y-3 bg-white border rounded-md shadow-md hover:scale-105 duration-300">
+          <section className="w-full p-5 space-y-3 bg-white/90 border rounded-md shadow-md hover:scale-105 duration-300">
             <p className="text-2xl">Hi! I am</p>
             <h1 className="text-5xl text-blue-800 font-bold tracking-wide">
               Mark Angelo Malihan
