@@ -3,7 +3,7 @@ import React from "react";
 function ProjectCards() {
   const projects = [
     {
-      img: "/am-logo.png",
+      img: "/am-logo2.png",
       name: "Argel Malihan Portfolio",
       description: "My Web Portfolio",
       tech: "ReactJS, Tailwind CSS",
@@ -16,7 +16,7 @@ function ProjectCards() {
         {projects.map((project, index) => (
           <section
             key={index}
-            className="p-5 border border-blue-300 bg-gray-600 hover:scale-105 duration-300 rounded-md shadow-md"
+            className="p-5 border border-blue-600 bg-zinc-700/80 hover:scale-105 duration-300 rounded-md shadow-md"
           >
             <div className="flex items-center gap-5">
               <img
