@@ -28,10 +28,13 @@ function ProjectCards() {
               <h1 className="text-xl text-gray-50 font-bold">{project.name}</h1>
             </div>
 
-            <div className="w-full space-y-3">
-              <p className="text-gray-300">{project.description}</p>
+            <div className="w-full space-y-4">
+              <p className="text-gray-200">{project.description}</p>
               <hr />
-              <p className="text-gray-200">Technology: {project.tech}</p>
+              <p className="text-gray-300">
+                Technology:
+                <span className="text-sky-300"> {project.tech}</span>
+              </p>
               <hr />
               <p>
                 <a

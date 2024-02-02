@@ -1,12 +1,15 @@
 import React from "react";
+import ProjectCards from "../components/ProjectCards";
 
 function Projects() {
   return (
     <>
-      <h1 className="text-3xl font-bold m-10">Projects</h1>
-      <section className="flex flex-col items-center space-y-10">
-        <h1 className="text-xl font-semibold">Let's fight somewhere empty</h1>
-        <img src="/empty.png" alt="" />
+      <section className="mx-auto container ">
+        <h1 className="text-3xl text-black/80 font-bold m-5 text-blue-200">
+          Projects
+        </h1>
+        <ProjectCards />
+        <hr className="my-14 mx-auto border-t-teal-300" />
       </section>
     </>
   );
